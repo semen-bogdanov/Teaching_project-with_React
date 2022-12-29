@@ -1,0 +1,128 @@
+/*--------------- общие переменные -------------------*/
+
+$color__biscuit: #8b764e;
+$color__black: #27292c;
+  
+.Discount {
+    
+   &__inner {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 125px;
+   }
+
+   &__text {
+    display: block;
+ 
+   }
+   &__text2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 60px;
+   }
+
+   &__img {
+    height: 600px;
+   }
+
+   &__h1 {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 50px;
+   }
+ 
+       
+}
+
+
+/*--------------- Адаптация страницы 1300 -------------------*/
+
+@media screen and (max-width: 1300px) {
+
+   .Discount {
+      overflow-x: hidden;
+      &__h1 {
+         font-size: 20px;
+         font-weight: 700;
+         padding-bottom: 50px;
+        }
+
+        &__img {
+         height: 300px;
+        }
+
+
+      
+        &__text2 {
+         font-size: 15px;
+         line-height: 20px;
+         padding-bottom: 60px;
+        }
+        &__img2 {
+         height: 300px;
+         width:  300px;
+        }
+
+   }
+
+}
+
+
+
+/*--------------- Адаптация страницы 890px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+   .Discount {
+      overflow-x: hidden;
+      &__h1 {
+         font-size: 20px;
+         font-weight: 700;
+         padding-bottom: 50px;
+        }
+
+        &__img {
+         height: 300px;
+        }
+ 
+        &__text2 {
+         font-size: 15px;
+         line-height: 20px;
+         padding-bottom: 60px;
+        }
+        &__img2 {
+         height: 300px;
+         width:  300px;
+        }
+
+   }
+
+}
+
+
+/*--------------- Адаптация страницы 600px -------------------*/
+
+@media screen and (max-width: 600px) {
+
+   .Discount {
+      &__inner {
+         display: block;
+         text-align: center;
+         margin-top: 0px;
+         margin-bottom: 50px;
+        }
+
+        &__img {
+         height: 100px;
+        }
+
+        &__img2 {
+         display: none;
+        
+        }
+
+   }
+
+}

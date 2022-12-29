@@ -1,0 +1,59 @@
+$color__biscuit: #8b764e;
+
+.FormValidation {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    &__submit {
+        background-color: $color__biscuit;
+        border-radius: 10px;
+        width: 600px;
+        max-width: 800px;
+        height: 60px;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: white;
+        margin-bottom: 60px;
+    }
+    &__submit:hover { 
+         background-color: #9f8f72;
+    }
+
+    &__submit:disabled  { 
+        background-color: #b6b2aa;
+   }
+   &__submit:active { 
+    background-color: #eeeeee;
+}
+ 
+
+    &__form {
+        text-align: center;
+        display: block;
+    }
+
+    &__inputFerst {
+        border-radius: 5px;
+        width: 600px;
+        max-width: 800px;
+        height: 60px;
+        font-size: 20px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        border: 1px solid #c1c1c1 !important
+
+    }
+
+    &__label {
+        display: block;
+    }
+
+    &__errors {
+        height: 40px;
+        color: red;
+    }
+}

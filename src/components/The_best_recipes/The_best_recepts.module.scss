@@ -1,0 +1,206 @@
+/*--------------- общие переменные -------------------*/
+
+$color__biscuit: #8b764e;
+ 
+  
+.TheBest {
+  
+    &__recipes {
+        text-align: center;
+        font-family: 'Reey-Regular', Helvetica, Arial, sans-serif; 
+        font-size: 60px;
+        padding-bottom: 55px;
+    }
+
+    &__text {
+        margin-top: 65px;
+        margin-bottom: 125px;
+    }
+
+    &__table {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    &__textrecept {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    &__tabletext {
+        font-size: 21px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    &__tableone {
+        width: 300px;
+    }
+
+    &__tabletext2 {
+        line-height: 20px;
+        width: 250px;
+        padding-left: 50px;
+    }
+
+    &__tableimg {
+        height: 300px;
+        width: 300px;
+    }
+
+    &__blockbtn {
+       display: flex;
+       justify-content: center;
+       margin-bottom: 80px;
+    }
+  
+}
+
+
+  
+ 
+
+/*--------------- Адаптация страницы 900px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+    .TheBest {
+     &__tableimg {
+        width: 200px;
+        height: 200px;
+     }
+
+     &__tableone {
+        width: 250px;
+     }
+
+     &__tabletext {
+        padding-left: 20px;
+     }
+
+     &__tabletext2 {
+        padding-left: 20px;
+     }
+    
+    }
+    }
+
+    /*--------------- Адаптация страницы 700px -------------------*/
+
+@media screen and (max-width: 700px) {
+
+    .TheBest {
+     &__tableimg {
+        width: 200px;
+        height: 200px;
+     }
+
+     &__tableone {
+        width: 200px;
+     }
+
+     &__tabletext {
+        padding-left: 0px;
+     }
+
+     &__tabletext2 {
+        padding-left: 0px;
+     }
+    
+    }
+    }
+
+        /*--------------- Адаптация страницы 650px -------------------*/
+
+@media screen and (max-width: 650px) {
+
+    .TheBest {
+     &__recipes {
+        font-size: 50px;
+     }
+
+     &__textrecept {
+        font-size: 18px;
+     }
+
+     &__table {
+        display: block;
+     }
+
+     &__tableone {
+       display: block;
+       margin: 0 auto;
+       padding-bottom: 20px;
+       width: 400px;
+       text-align: center;
+     }
+
+     &__tableimg {
+        width: 350px;
+        height: 350px;
+     }
+
+     &__tabletext2 {
+         text-align: center;
+         width: 90%;
+     }
+    
+    }
+    }
+
+    /*--------------- Адаптация страницы 450px -------------------*/
+
+@media screen and (max-width: 450px) {
+
+   .TheBest {
+
+       &__recipes {
+          font-size: 35px;
+          width: 400px;
+       }
+
+       &__textrecept {
+         font-size: 14px;
+       }
+   }
+   
+ }
+
+     /*--------------- Адаптация страницы 400px -------------------*/
+
+@media screen and (max-width: 400px) {
+
+   .TheBest {
+
+       &__recipes {
+          font-size: 30px;
+          width: 350px;
+       }
+
+       &__tableimg {
+         width: 250px;
+         height: 250px;
+       }
+
+       &__tableone {
+         width: 300px;
+       }
+   }
+   
+ }
+
+      /*--------------- Адаптация страницы 350px -------------------*/
+
+@media screen and (max-width: 350px) {
+
+   .TheBest {
+      &__text {
+         margin-top: 15px;
+         margin-bottom: 75px;
+     }
+        
+   }
+   
+ }

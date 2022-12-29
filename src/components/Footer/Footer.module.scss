@@ -1,0 +1,249 @@
+  
+.Footer {
+    width: 100%;
+    height: 500px;
+    background-image: url(../../assets/Footer/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    &__inner {
+        display: flex;
+        padding-top: 80px;
+        justify-content: space-between;
+    }
+     
+
+    &__contact {
+        max-width: 245px;
+    }
+
+    &__name1 {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-bottom: 35px;
+      width: 250px;
+    }
+
+    &__text1 {
+        padding-bottom: 50px;
+        font-size: 14px;
+        line-height: 25px;
+        opacity: .25;
+    }
+
+    &__email {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__emailimg {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    &__emailname {
+        color: white;
+        font-size: 16px;
+    }
+
+    &__emailname:hover { 
+        text-decoration: underline; /* Добавляем подчеркивание 
+                                       при наведении курсора мыши на ссылку */
+       }
+
+    &__tel {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__telefon {
+        color: white;
+        font-size: 16px;
+    }
+
+    &__telefonimg {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    &__moscow {
+        display: flex;
+    }
+
+    &__adressimg {
+        height: 20px;
+        width: 13px;
+        margin-right: 5px;
+    }
+
+    &__adress {
+        color: white;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 25px;
+    }
+
+    &__pages {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    &__menu {
+       display: block;
+    }
+
+    &__vkontakte {
+        display: block;
+        width: 400px;
+        height: 300px;
+        padding-top: 7px;
+       
+    }
+
+    &__vkontakte > a > img {
+       padding-bottom: 16px;
+        padding-right: 15px;
+    }
+
+    &__socsety {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    &__vkontakteFerst {
+        padding-left: 40px;
+    }
+
+    &__socialnetworks {
+        padding-left: 10px;
+    }
+
+    
+
+    &__imgFacebook {
+        padding-right: 10px;
+    }
+
+    &__Facebook {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: underline
+    }
+    
+    &__order {
+        padding-left: 20px;
+    }
+
+ 
+
+}
+
+
+/*--------------- Адаптация страницы 1265px -------------------*/
+
+@media screen and (max-width: 1265px) {
+
+    .Footer { 
+       
+        &__socialnetworks {
+            display: none;
+        }
+    }
+}
+
+/*--------------- Адаптация страницы 900px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+    .Footer {
+        overflow-x: hidden;
+      &__order {
+        display: none;
+      }
+    
+    }
+    }
+
+ /*--------------- Адаптация страницы 720px -------------------*/
+
+@media screen and (max-width: 720px) {
+
+    .Footer {
+     &__vkontakteFerst {
+        display: none;
+     }
+
+     &__inner {
+        display: flex;
+        padding-top: 80px;
+        justify-content: center;
+    }
+
+    &__contact {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    &__name1 {
+        width: 100%;
+    }
+
+    &__email {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    &__tel {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__moscow {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    &__text1 {
+        width: 380px;
+    }
+
+
+    
+    }
+    }
+
+    /*--------------- Адаптация страницы 650px -------------------*/
+
+ @media screen and (max-width: 650px) {
+
+    .Footer {
+        height: 400px;
+
+        &__inner {
+            padding-top: 50px;
+        }
+    }
+  }
+
+ 
+  
+
+     /*--------------- Адаптация страницы 400px -------------------*/
+
+ @media screen and (max-width: 400px) {
+
+    .Footer {
+   
+
+        &__text1 {
+            width: 300px;
+        }
+    }
+  }

@@ -1,0 +1,436 @@
+/*--------------- общие переменные -------------------*/
+
+$color__biscuit: #8b764e;
+  
+.Header {
+        height: 1300px;
+        width: 100%;
+        background-image: url(../../assets/header/wood5916311920.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        &__nav {
+            display: flex;
+            height: 120px;
+            align-items: center;
+        }
+
+        &__zag {
+           font-size: 60px;
+           padding-bottom: 10px;
+           color: $color__biscuit;
+        }
+        &__text {
+            font-size: 28px;
+             line-height: 35px;
+        }
+
+        &__headline {
+            width: 500px;
+            margin-top: 280px;
+            text-align: left;
+        }
+
+        &__inner {
+            background: rgba(0,0,0,0.6);
+            height: 120px;
+        }
+
+        &__telefon {
+            color: white;
+        }
+
+        &__navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__start {
+            display: flex;
+            align-items: center;
+        }
+
+        &__link {
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-weight: 500;
+            color: white;
+            padding-right: 20px;
+     
+        }
+        &__link:hover {
+            color: $color__biscuit;
+            font-weight: 600;
+        }
+
+        &__logo {
+            padding-right: 50px;
+        }
+
+        &__telnumber0 {
+            font-size: 14px;
+        }
+
+        &__telnumber1 {
+            font-size: 18px;
+        }
+
+        &__pages {
+            display: flex;
+            align-items: center;
+             
+        }
+
+        &__arr {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 15px;
+            width: 20px;
+            height: 20px;
+        }
+         &__imgtel {
+            width: 20px;
+            height: 20px;
+         }
+    
+
+        &__arrowOne {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            transition: .5s;
+        }
+
+        &__blockcontact {
+            display:block;
+        }
+
+        &__order {
+            color: white;
+            font-size: 14px;
+            padding-bottom: 5px;
+            text-align: right;
+        }
+
+        &__contact {
+            display: flex;
+        }
+
+        &__burger {
+            display: none;
+        }
+
+        &__burgerMenu {
+            display: none;
+        }
+        &__none {
+            display: none;
+        }
+
+        &__burgerMenu1 {
+            display: flex ;
+            align-items: center;
+            font-size: 15px;
+            line-height: 2.7;
+          }
+
+          &__footerMenu {
+            font-size: 15px !important;
+            font-weight: 500;
+            color: white;
+            line-height: 2.7;
+            text-transform: uppercase;
+            text-decoration: underline;
+          }
+ 
+}
+
+ 
+/*--------------- Адаптация страницы 1024px -------------------*/
+
+@media screen and (max-width: 1024px) {
+
+    .Header { 
+     height: 900px;
+
+     &__headline {
+        margin-top: 180px;
+        margin-left: 40px;
+     }
+    }
+}
+
+
+/*--------------- Адаптация страницы 1145px -------------------*/
+
+@media screen and (max-width: 1145px) {
+
+    .Header { 
+       &__link {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    }
+}
+
+/*--------------- Адаптация страницы 970px -------------------*/
+
+@media screen and (max-width: 970px) {
+
+    .Header { 
+       &__link {
+        padding-right: 10px;
+        font-size: 10px;
+    }
+    }
+}
+
+/*--------------- Адаптация страницы 890px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+    .Header { 
+        overflow-x: hidden;
+        &__burger {
+            display: block;
+            background: transparent;
+            transition: .5s;
+            top: 35px;
+            position: fixed;
+            z-index: 2;
+        }
+
+        &__burgerimg {
+            width: 50px;
+            height: 50px;
+        }
+
+        &__pages {
+            display: none;
+        }
+
+        &__blockcontact {
+            text-align: left;
+        }
+
+        &__navigation {
+            justify-content: space-around;
+        }
+        &__none {
+            display: none;
+        }
+         
+        &__burgerMenu  {
+            display: block;
+            width: 300px;
+            height: 300px;
+            position: absolute; 
+            right:0px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.6);
+            
+            transition: .5s;
+            transform: scale(1);
+            overflow-x:hidden;
+            z-index: 2;
+            position: fixed;
+             
+          }
+
+          &__burgerMenu2  { 
+            width: 0px;
+            overflow-x:hidden
+        }
+               
+        &__display {
+            transition: .1s;
+            overflow: scroll;
+        }
+          &__start2 {
+            display: block;
+            margin: 0 auto;
+          }
+
+         
+          &__link {
+            font-size: 20px !important;
+          }
+ 
+          &__burgerMenu1 {
+            display: flex ;
+            padding-left: 60px;
+            padding-top: 30px;
+            line-height: 0;
+          }
+ 
+    }
+   
+    }
+
+    
+
+ 
+ 
+/*--------------- Адаптация страницы 830px -------------------*/
+
+@media screen and (max-width: 830px) {
+
+    .Header { 
+        height: 700px;
+    
+        &__headline {
+            margin-top: 150px;
+            width: 400px;
+            margin-left: 40px;
+        }
+        &__zag {
+          font-size: 40px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+    
+}
+
+
+/*--------------- Адаптация страницы 700px -------------------*/
+
+@media screen and (max-width: 700px) {
+
+    .Header { 
+        &__burgerMenu1 {
+            padding-left: 25px;
+            padding-top: 20px;
+          }
+          &__link {
+            font-size: 15px !important;
+          }
+    }
+    
+}
+
+ 
+
+/*--------------- Адаптация страницы 600px -------------------*/
+
+@media screen and (max-width: 600px) {
+
+    .Header { 
+        &__navigation {
+            justify-content: space-around;
+        }
+
+        &__blockcontact {
+            padding-right: 40px;
+        }
+        &__text {
+            display: none;
+        }
+
+        &__blockcontact {
+            display: none;
+        }
+    }
+    
+}
+
+/*--------------- Адаптация страницы 450px -------------------*/
+
+@media screen and (max-width: 450px) {
+
+    .Header { 
+         &__headline {
+            margin-left: 20px;
+         }
+
+         &__burgerMenu  {
+        
+            height: 250px;
+          }
+    }
+    
+}
+
+
+/*--------------- Адаптация страницы 400px -------------------*/
+
+@media screen and (max-width: 400px) {
+
+    .Header { 
+
+        &__navigation {
+            justify-content: flex-start;
+        }
+
+        
+        
+          &__link {
+            font-size: 13px !important;
+          }
+
+          &__burger {
+           padding-left: 90px;
+        }
+
+        &__burgerMenu  {
+            width: 300px;
+            height: 250px;
+          }
+
+          &__burgerMenu1 {
+            padding-left: 15px;
+          }
+
+    }
+    
+}
+
+/*--------------- Адаптация страницы 350px -------------------*/
+
+@media screen and (max-width: 350px) {
+
+    .Header { 
+      
+        
+          &__burgerMenu1 {
+            padding-left: 10px;
+          }
+
+          &__zag {
+            font-size: 35px;
+          }
+
+          &__burger {
+            padding-left: 90px;
+         }
+
+    }
+    
+}
+
+/*--------------- Адаптация страницы 320px -------------------*/
+
+@media screen and (max-width: 320px) {
+
+    .Header { 
+
+          &__burgerMenu1 {
+            padding-left: 10px;
+          }
+
+          &__zag {
+            font-size: 35px;
+          }
+          &__burger {
+            padding-left: 50px;
+         }
+         &__link {
+            font-size: 10px !important;
+          }
+    }
+    
+}

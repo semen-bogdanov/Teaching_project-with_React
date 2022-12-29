@@ -1,0 +1,65 @@
+  
+.Quote {
+  
+    &__text {
+        color: #3f3f3f;
+        font-size: 24px;
+        text-align: center;
+        width: 800px;
+        font-weight: 500;
+        margin: 0 auto;
+        padding-bottom: 200px;
+    }
+
+}
+
+ 
+
+ /*--------------- Адаптация страницы 790px -------------------*/
+
+ @media screen and (max-width: 790px) {
+    .Quote {
+    &__text {
+        font-size: 20px;
+        width: 600px;
+    
+    }
+}
+}
+
+ /*--------------- Адаптация страницы 650px -------------------*/
+
+ @media screen and (max-width: 650px) {
+    .Quote {
+    &__text {
+        font-size: 16px;
+        width: 500px;
+    
+    }
+}
+}
+
+ /*--------------- Адаптация страницы 550px -------------------*/
+
+ @media screen and (max-width: 550px) {
+    .Quote {
+    &__text {
+        font-size: 14px;
+        width: 400px;
+    
+    }
+}
+}
+
+ /*--------------- Адаптация страницы 450px -------------------*/
+
+ @media screen and (max-width: 450px) {
+    .Quote {
+
+    &__text {
+        width: 300px;
+        line-height: 1.5;
+        padding-bottom: 100px;
+    }
+}
+}

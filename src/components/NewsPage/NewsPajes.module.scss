@@ -1,0 +1,88 @@
+.NewsPajes {
+
+    &__h1 {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 100px;
+        font-weight: 600;
+    }
+
+    &__news1 {
+        font-size: 16px;
+        text-align: left;
+        line-height: 2.0;
+    }
+
+    &__img {
+        width: 400px;
+        height: 400px;
+        margin-right: 50px;
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+} 
+
+
+/*--------------- Адаптация страницы 1000px -------------------*/
+
+@media screen and (max-width: 1000px) {
+
+    .NewsPajes { 
+      
+
+      &__block {
+        display: block;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &__img {
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    &__news1 {
+        font-size: 14px;
+        text-align: center;
+    }
+    }
+    
+}
+
+/*--------------- Адаптация страницы 500px -------------------*/
+
+@media screen and (max-width: 500px) {
+
+    .NewsPajes { 
+      
+
+        &__img {
+            width: 300px;
+            height: 300px;
+            margin-right: 0px;
+        }
+    }
+    
+}
+
+/*--------------- Адаптация страницы 350px -------------------*/
+
+@media screen and (max-width: 350px) {
+
+    .NewsPajes { 
+      
+
+        &__img {
+            width: 200px;
+            height: 200px;
+        
+        }
+    }
+    
+}

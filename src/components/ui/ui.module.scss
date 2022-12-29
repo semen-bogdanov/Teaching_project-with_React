@@ -1,0 +1,113 @@
+/*--------------- общие переменные -------------------*/
+
+$color__biscuit: #8b764e;
+$color__gray: #343434;
+
+ 
+  
+.Btn {
+  
+   &__one {
+    background-color: $color__gray;
+    color: white;
+    width: 255px;
+    height: 65px;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 8px;
+   }
+
+   &__moreinfo {
+      background-color: white;
+      width: 270px;
+      height: 55px;
+      border-radius: 20px;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 100px;
+ }
+   
+    &__subscribe {
+      position: absolute;
+      background-color: #54524f;
+      width: 250px;
+      height: 70px;
+      border-radius: 40px;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: white;
+      margin-left: -240px;
+ 
+   }
+
+   &__request {
+      width: 200px;
+      height: 42px;
+      background-color: $color__biscuit;
+      color: white;
+      font-weight: 600;
+   }
+       
+}
+
+ /*--------------- Адаптация страницы 1024 -------------------*/
+
+ @media screen and (max-width: 1024px) {
+   .Btn {
+  
+      &__moreinfo {
+         margin-top: 50px;
+      }
+}
+}
+
+ /*--------------- Адаптация страницы 700 -------------------*/
+
+ @media screen and (max-width: 700px) {
+   .Btn {
+  
+      &__subscribe {
+         width: 200px;
+         height: 50px;
+         margin-left: -198px;
+         font-size: 15px;
+      }
+}
+}
+
+ /*--------------- Адаптация страницы 550 -------------------*/
+
+ @media screen and (max-width: 550px) {
+   .Btn {
+  
+      &__subscribe {
+         width: 100px;
+         height: 40px;
+         margin-left: -100px;
+         font-size: 14px;
+      }
+}
+}
+
+ /*--------------- Адаптация страницы 400 -------------------*/
+
+ @media screen and (max-width: 400px) {
+   .Btn {
+  
+      &__subscribe {
+         width: 80px;
+         height: 30px;
+         margin-left: -80px;
+         font-size: 11px;
+         font-weight: 500;
+      }
+}
+}
+
+

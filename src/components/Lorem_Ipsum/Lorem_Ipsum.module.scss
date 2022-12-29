@@ -1,0 +1,124 @@
+/*--------------- общие переменные -------------------*/
+
+$color__biscuit: #8b764e;
+$color__black: #27292c;
+  
+.Lorem_Ipsum {
+    
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ height: 200px;
+
+ &__img {
+    width: 100%;
+ }
+
+ &__text {
+   text-align: center;
+    width: 340px;
+    margin-bottom: 45px;
+ }
+ &__h1 {
+   font-family: 'Reey-Regular', Helvetica, Arial, sans-serif; 
+   padding-bottom: 30px;
+   font-size: 36px;
+ }
+
+ &__text2 {
+   text-align: left;
+ }
+
+ &__h2 {
+   width: 700px;
+   font-weight: 600;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 21px;
+ }
+
+ 
+}
+
+ /*--------------- Адаптация страницы 1024px -------------------*/
+
+ @media screen and (max-width: 1024px) {
+
+  .Lorem_Ipsum {
+    overflow-x: hidden;
+    max-width: 1000px;
+    &__text {
+      padding-right: 5px;
+    }
+   
+  }
+}
+
+
+
+ /*--------------- Адаптация страницы 890px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+  .Lorem_Ipsum {
+    overflow-x: hidden;
+    max-width: 900px;
+  }
+}
+
+
+ /*--------------- Адаптация страницы 700px -------------------*/
+
+ @media screen and (max-width: 700px) {
+
+  .Lorem_Ipsum {
+    &__h2 {
+      width: 500px;
+      font-size: 16px;
+    }
+
+  }
+}
+
+
+ /*--------------- Адаптация страницы 650px -------------------*/
+
+ @media screen and (max-width: 650px) {
+
+  .Lorem_Ipsum {
+    display: block;
+    height: 500px;
+     
+   
+    &__text {
+      width: 500px;
+      font-size: 16px;
+      margin: 0 auto;
+      padding-bottom: 60px;
+    }
+
+  }
+}
+
+
+ /*--------------- Адаптация страницы 550px -------------------*/
+
+ @media screen and (max-width: 550px) {
+
+  .Lorem_Ipsum {
+    height: 550px;
+    &__h2 {
+      display: none;
+    }
+    &__text {
+      width: 350px;
+    }
+
+    &__text2 {
+      text-align: center;
+    }
+
+  }
+}
+
+ 

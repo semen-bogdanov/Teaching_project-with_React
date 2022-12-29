@@ -1,0 +1,220 @@
+  
+.Subscription {
+    &__img {
+        width: 100%;
+        height: 1300px;
+        background-image: url(../../assets/Subscription/Background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+    }
+
+    &__inner {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center; 
+         width: 100%;
+         padding-top: 15%;
+    }
+
+    &__news {
+        font-size: 60px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__text {
+        color: white;
+        font-size: 24px;
+        width: 650px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    &__input {
+        margin-top: 80px;
+    }
+
+    &__input2 {
+        width: 650px;
+        height: 70px;
+        font-size: 24px;
+        padding-left: 20px;
+        border-radius: 40px;
+        border: 5px solid #c1c1c1 !important; 
+    }
+
+ 
+
+}
+
+/*--------------- Адаптация страницы 1024px -------------------*/
+
+@media screen and (max-width: 1024px) {
+
+    .Subscription {
+    
+      &__news {
+        font-size: 40px;
+      }
+      &__text {
+        font-size: 20px;
+      }
+      &__img {
+        height: 800px;
+      }
+    
+    }
+    }
+
+ 
+/*--------------- Адаптация страницы 890px -------------------*/
+
+@media screen and (max-width: 900px) {
+
+.Subscription {
+
+  &__news {
+    font-size: 40px;
+  }
+  &__text {
+    font-size: 20px;
+  }
+   
+
+}
+}
+
+/*--------------- Адаптация страницы 830px -------------------*/
+
+@media screen and (max-width: 830px) {
+
+    .Subscription { 
+        &__img {
+            width: 100%;
+            height: 700px;
+        }
+    }
+    
+}
+
+
+/*--------------- Адаптация страницы 700px -------------------*/
+
+@media screen and (max-width: 700px) {
+
+  .Subscription { 
+      &__text {
+          font-size: 16px;
+          width: 500px;
+      }
+      
+      &__input2 {
+        width: 500px;
+        height: 50px;
+        font-size: 16px;
+      }
+  }
+  
+}
+ 
+
+
+/*--------------- Адаптация страницы 550px -------------------*/
+
+@media screen and (max-width: 550px) {
+
+  .Subscription { 
+      
+      &__input2 {
+        width: 400px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 50px;
+        border: 2px solid #c1c1c1 !important;
+      }
+
+      &__text {
+         font-size: 14px;
+      }
+
+      &__news {
+        font-size: 30px;
+      }
+
+      &__img {
+        height: 450px;
+      }
+  }
+  
+}
+
+/*--------------- Адаптация страницы 500px -------------------*/
+
+@media screen and (max-width: 500px) {
+
+  .Subscription { 
+      
+    
+
+      &__text {
+         font-size: 13px;
+         width: 400px;
+      }
+
+     
+  }
+  
+}
+
+/*--------------- Адаптация страницы 400px -------------------*/
+
+@media screen and (max-width: 400px) {
+
+  .Subscription { 
+      
+    
+
+      &__news{
+         font-size: 20px;
+       
+      }
+
+      &__text {
+    
+        width: 350px;
+     }
+
+     &__input2 {
+      width: 280px;
+      height: 30px;
+      font-size: 12px;
+      border-radius: 50px;
+      border: 2px solid #c1c1c1 !important;
+    }
+     
+  }
+  
+}
+
+/*--------------- Адаптация страницы 350px -------------------*/
+
+@media screen and (max-width: 350px) {
+
+  .Subscription { 
+
+      &__text {
+        width: 280px;
+     }
+
+     
+  }
+  
+}
