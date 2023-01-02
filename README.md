@@ -1,9 +1,10 @@
-# Сайт: https://teaching-project-with-react.vercel.app/
-# Учебный проект на React. Вёрстка и адаптация страницы.
-Реализована страница "новости" и "сделать заказ"
-React, Sass, React Router v6.
+ # Учебный проект на React JS. Вёрстка и адаптация страницы.
+Страница сайта: https://teaching-project-with-react.vercel.app/
+
+Создан функция добавления (удаления) в корзину, общая стоимость. 
+Показан функционал работы. 
+
+- Sass
+- React Router v6
 
 
-
-
- 
